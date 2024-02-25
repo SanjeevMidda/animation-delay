@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  flex-direction: column;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+@keyframes moveForwards {
+  from {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(30px);
+    opacity: 1;
+  }
+}
+
+@keyframes moveForwardsTwo {
+  from {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(60px);
+    opacity: 1;
+  }
+}
+
+@keyframes moveForwardsThree {
+  from {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(90px);
+    opacity: 1;
+  }
+}
+
+@keyframes moveBackwards {
+  from {
+    transform: translateX(30px);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+}
+
+@keyframes moveBackwardsTwo {
+  from {
+    transform: translateX(60px);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+}
+
+@keyframes moveBackwardsThree {
+  from {
+    transform: translateX(90px);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+}
